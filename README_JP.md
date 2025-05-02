@@ -279,6 +279,8 @@ curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com
 curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_linux_id_modifier.sh | sudo bash
 ```
 
+> **Linuxユーザーへの注意：** スクリプトは、一般的なパス（`/usr/bin`, `/usr/local/bin`, `$HOME/.local/bin`, `/opt/cursor`, `/snap/bin`）の確認、`which cursor` コマンドの使用、および `/usr`、`/opt`、`$HOME/.local` ディレクトリ内の検索によって、Cursor のインストールを見つけようとします。Cursorが他の場所にインストールされているか、これらの方法で見つからない場合、スクリプトは失敗する可能性があります。これらの標準的な場所または方法のいずれかを通じてCursorにアクセスできることを確認してください。
+
 **Windows**
 
 ```powershell
@@ -498,7 +500,7 @@ macOS/Linuxユーザーはシステム内で同様の`cursor-updater`ディレ�
 </td>
 <td align="center">
 <b>WeChat</b><br>
-<img src="img/qun11.jpg" width="500" alt="WeChat"><br>
+<img src="img/qun-12.png" width="500" alt="WeChat"><br>
 <em>二维码7天内(4月25日前)有效，过期请加微信</em>
 </td>
 <!-- <td align="center">
